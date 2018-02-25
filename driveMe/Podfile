@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+target 'driveMe' do
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+end
