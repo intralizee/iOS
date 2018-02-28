@@ -40,8 +40,13 @@ io.on('connection', function(socket) {
     var client = require('./lib/client/clientMiddleware');
     client.socketHandler(socket, io);
     /* socketHandler [events] list.
-     *   'client_identity' 'client_register' 'disconnect' 'message' 'error'
-     *   'client_ready' 'client_error'
+     *   'client_identity'
+     *   'client_register'
+     *   'disconnect'
+     *   'message'
+     *   'error'
+     *   'client_ready'
+     *   'client_error'
      */
 
     var user = require('./lib/user/userMiddleware');

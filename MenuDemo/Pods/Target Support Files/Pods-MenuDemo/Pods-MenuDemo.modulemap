@@ -1,0 +1,6 @@
+framework module Pods_MenuDemo {
+  umbrella header "Pods-MenuDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

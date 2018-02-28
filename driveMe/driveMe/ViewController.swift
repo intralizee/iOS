@@ -65,14 +65,14 @@ class ViewController: UIViewController {
 
         btnWhereTo.contentHorizontalAlignment = .left
         btnWhereTo.contentVerticalAlignment = .top
-        btnWhereTo.titleEdgeInsets = UIEdgeInsetsMake(17.0, 15.0, 0.0, 0.0)
+        btnWhereTo.titleEdgeInsets = UIEdgeInsetsMake(20.0, 15.0, 0.0, 0.0)
 
         //let image = UIImage(named: "car")
-        let image = self.resizeImage(with: UIImage(named: "car")!, scaledTo: CGSize(width: 40.0, height: 40.0))
+        let image = self.resizeImage(with: UIImage(named: "car")!, scaledTo: CGSize(width: 35.0, height: 35.0))
         btnWhereTo.tintColor = UIColor.black
         btnWhereTo.setImage(image, for: UIControlState.normal)
         btnWhereTo.semanticContentAttribute = .forceRightToLeft
-        btnWhereTo.imageEdgeInsets = UIEdgeInsetsMake(8, btnWhereTo.frame.size.width - ((image.size.width) + 30), 0, 0)
+        btnWhereTo.imageEdgeInsets = UIEdgeInsetsMake(12, btnWhereTo.frame.size.width - ((image.size.width) + 30), 0, 0)
         
         // Add transparency shadow to Button.
         btnWhereTo.layer.shadowRadius = 16.0
